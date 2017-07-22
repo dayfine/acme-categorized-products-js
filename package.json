@@ -1,0 +1,26 @@
+{
+  "name": "acme-categorized-products",
+  "version": "1.0.0",
+  "description": "",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dayfine/acme-categorized-products-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dayfine/acme-categorized-products-js/issues"
+  },
+  "homepage": "https://github.com/dayfine/acme-categorized-products-js#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "method-override": "^2.3.9",
+    "swig": "^1.4.2"
+  }
+}

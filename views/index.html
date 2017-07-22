@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block content %}
+  <div class='container'>
+    <div class='col-md-12'>
+      <h3>We Sell Everything!</h3>
+      <h5>Add a new category if you cannot find what you need.</h5>
+
+    </div>
+    <form method='POST' action='/categories'>
+      <div class='col-xs-12 col-md-9 form-group'>
+        <input name='name' placeholder='New Category' class='form-control'/>
+      </div>
+      <div class='col-xs-4 col-md-3 form-group'>
+        <button class='btn btn-primary'>Add Category</button>
+      </div>
+    </form>
+
+  </div>
+
+{% endblock %}
